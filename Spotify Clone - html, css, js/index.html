@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone | Your favourite Music is Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><img src="/logo.png" alt="Spotify"><span>Spotify</span></li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="song-list">
+            <h1>Best Of Season - Your Favourite Songs</h1>
+            <div class="songsList">
+
+            </div>
+        </div>
+        <div class="song-banner">
+            <img src="/Daco_1118349.png" alt="">
+        </div>
+    </section>
+    <footer>
+        <input type="range" name="" id="progressBar" min="0" value="0" max="100">
+        <div class="footer-icon">
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="song-info">
+            <img src="/playing.gif" alt="" id="gif"><span id="playSongName" class="spn">Mile ho tum hum ko bary naseebo
+                sy</span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
